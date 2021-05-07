@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>APNA BAAZAAR</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>APNA BAAZAAR</h1>
+		</header>
+		<nav>
+			<ul>
+				<li>HOME</li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#products">PRODUCTS</a></li>
+				<li><a href="#contact">CONTACT US</a></li>
+				<li><a href="#pay">PAYMENT</a></li>
+			</ul>
+		</nav>
+    </div>
+    <main>
+    	<div id="landingpg">
+    		<div id="contentarea">
+    			<h1>THE DESTINATION</h1>
+    			<h2>TO ALL YOUR SEARCHES</h2>
+    			<p>Check Out Several Ranges of Our Products<br>By Pressing The Enter Button Below</p>
+    			<input type="submit" name="submit" id="submit" value="Enter">
+    		</div>
+    	</div>
+    	<section id="about">
+    		<h1>ABOUT US</h1>
+    		<p>Apna Baazaar is one of the leading growing e-commerce company in India.Our company offers nearly every essential products and also have a varied range of the same.We currently have only one outlet as a store but our online servicves are open in all parts of India</p>
+    	</section>
+    	<section id="products">
+    		<h1>PRODUCTS</h1>
+    		<div id="storing">
+    			<div class="image">
+    				<img src="lap.png" height="350px" width="250px"><p>LAPTOP/PC</p>
+    			</div>
+    			<div class="image">
+    				<img src="mob.png" height="350px" width="250px"><p>SMARTPHONES/TABLETS</p>
+    			</div>
+    			<div class="image">
+    				<img src="1.png" height="350px" width="250px"><p>CLOTHING</p>
+    			</div>
+    			<div class="image">
+    				<img src="watch.png" height="350px" width="250px"><p>WATCHES</p>
+    			</div>
+    		</div>
+    	</section>
+    	<section id="contact">
+    	<div id="contactus">
+		<h1>Contact Us</h1>
+		<h2>Enter your details</h2>
+		<form>
+			<p><span class="demo">Name: </span><input type="text" name="name" required="" placeholder="Enter your name"></p>
+			<p><span class="demo">Mob.No: </span><input type="number" name="mob" required="" placeholder="9999955555"></p>
+			<p><span class="demo">Email: </span><input type="email" name="email" required="" placeholder="abc@gmail.com"></p>
+			<p><span class="demo">Enter your message </span><textarea name="msg" cols="8" rows="5" required= "" placeholder = "Type your message"></textarea></p>
+			<input type="submit" name="submit" value="Enter">
+		</form>
+	    </div>
+    	</section>
+    	<section id="pay">
+    		<div class="payment">
+		<form>
+			<h1 id="head">Payment Form</h1>
+			<h2>Contact Information</h2>
+			<p>Name: <input type="text" name="name" required="" placeholder="Enter Your Name"></p>
+			<fieldset>
+				<legend>Gender</legend>
+			<p>Male <input type="radio" name="gender" id="male" required=""> Female <input type="radio" name="gender" id="Female" required="">
+			</p>
+			</fieldset>
+			<p>Address: <textarea name="address" id="address" cols="10" rows="10" required="" placeholder="Enter Your Address"></textarea></p>
+			<p>Email: <input type="email" name="email" id="email" required="" placeholder="xyz@gmail.com"></p>
+			<p>Pincode: <input type="number" name="pincode" id="pincode" required="" placeholder="111111"></p>
+			<h2>Card Information</h2>
+			<p>Card Type:
+				<select name="card_type" id="card_type" required="">
+					<option value="">Select a Card Type</option>
+					<option value="visa">Visa</option>
+					<option value="rupay">Rupay</option>
+					<option value="mastercard">MasterCard</option>
+				</select>
+			</p>
+			<p>
+				Card Number <input type="number" name="cardno" id="cardno" required="" placeholder="1111 2222 3333 4444">
+			</p>
+			<p>
+				Expiration Date: <input type="date" name="expdate" id="expdate" required="">
+			</p>
+			<p>
+				CVV <input type="password" name="cvv" id="cvv" required="" placeholder="123">
+			</p>
+			<p>
+				<input type="submit" name="submit" value="Submit" required="">
+			</p>
+		</form>
+	</div>
+    	</section>
+    </main>
+    <footer>
+    	<div>
+    	<p>&copy; Copyright 2021, All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
